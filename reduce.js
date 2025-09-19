@@ -6,6 +6,9 @@
 
 
 // Summing an array of numbers:
+const nums = [0, 1, 2, 3, 4];
+const sum = nums.reduce((acc, curr) => acc + curr, 0);
+console.log(sum); // Sum: 10
 
 
 const teamMembers = [
